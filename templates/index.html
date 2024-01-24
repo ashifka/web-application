@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Species Classification</title>
+</head>
+<body>
+    <h1>Species Classification</h1>
+    <form action="/predict" method="post">
+        <label for="SL">Sepal Length:</label>
+        <input type="text" name="SL" required><br>
+
+        <label for="SW">Sepal Width:</label>
+        <input type="text" name="SW" required><br>
+
+        <label for="PL">Petal Length:</label>
+        <input type="text" name="PL" required><br>
+
+        <label for="PW">Petal Width:</label>
+        <input type="text" name="PW" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
+
